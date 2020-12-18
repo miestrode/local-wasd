@@ -39,8 +39,3 @@ execute if score y local.wasd_out >= threshold_bottom local.wasd_var run tag @s 
 execute if score x local.wasd_out <= threshold_top local.wasd_var run tag @s add local.wasd_a
 execute if score y local.wasd_out <= threshold_top local.wasd_var run tag @s add local.wasd_s
 execute if score x local.wasd_out >= threshold_bottom local.wasd_var run tag @s add local.wasd_d
-
-execute if score y local.wasd_out >= threshold_bottom local.wasd_var run say w
-execute if score x local.wasd_out <= threshold_top local.wasd_var run say a
-execute if score y local.wasd_out <= threshold_top local.wasd_var run say s
-execute if score x local.wasd_out >= threshold_bottom local.wasd_var run say d
