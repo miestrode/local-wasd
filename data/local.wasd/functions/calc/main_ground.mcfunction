@@ -46,11 +46,6 @@ execute if score x local.wasd_out <= threshold_top local.wasd_var run tag @s add
 execute if score y local.wasd_out <= threshold_top local.wasd_var run tag @s add local.wasd_s
 execute if score x local.wasd_out >= threshold_bottom local.wasd_var run tag @s add local.wasd_d
 
-execute if score y local.wasd_out >= threshold_bottom local.wasd_var run say w
-execute if score x local.wasd_out <= threshold_top local.wasd_var run say a
-execute if score y local.wasd_out <= threshold_top local.wasd_var run say s
-execute if score x local.wasd_out >= threshold_bottom local.wasd_var run say d
-
 # Set the previous player position to the current player position.
 execute store result score p_player_x local.wasd_inp run data get entity @s Pos[0] 1000
 execute store result score p_player_y local.wasd_inp run data get entity @s Pos[2] 1000
