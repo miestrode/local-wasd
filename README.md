@@ -12,9 +12,9 @@
 - Trigonometric functions (sine and cosine) by vdvman1 (Phi library).
 
 [Functions]
-- Total count: 4.
+- Total count: 3.
 - Main count: 1.
-- Sub count 3 (Install, Sine and cosine).
+- Sub count 2 (Install and loop).
 
 [Miscellaneous]
 - Inspiration from the mounted-WASD project.
